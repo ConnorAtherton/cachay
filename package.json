@@ -1,0 +1,30 @@
+{
+  "name": "supercache",
+  "version": "0.1.0",
+  "description": "A node caching library supporting multiple backends ",
+  "main": "src/cachay.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ConnorAtherton/cachay.git"
+  },
+  "keywords": [
+    "caching",
+    "cache",
+    "redis"
+  ],
+  "author": "Connor Atherton <c.liam.atherton@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ConnorAtherton/cachay/issues"
+  },
+  "homepage": "https://github.com/ConnorAtherton/cachay#readme",
+  "devDependencies": {
+    "ava": "^0.7.0"
+  }
+}
